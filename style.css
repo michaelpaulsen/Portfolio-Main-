@@ -1,0 +1,195 @@
+.warn {
+  background-color: rgba(235, 186, 52, 0.5);
+  color: #dec378;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.col-1 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 6.25%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-2 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 12.5%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-3 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 18.75%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-4 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 25%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-5 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 31.25%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-6 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 37.5%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-7 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 43.75%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-8 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 50%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-9 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 56.25%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-10 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 62.5%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-11 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 68.75%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-12 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 75%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-13 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 81.25%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-14 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 87.5%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-15 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 93.75%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.col-16 {
+  overflow: hidden;
+  margin: 2px auto;
+  flex-direction: column;
+  width: 100%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+body {
+  background-color: #a5e6ba;
+  color: #004c58;
+}
+
+nav {
+  color: #00333f;
+}
+
+a:visited {
+  color: blue;
+}
+
+.youtube {
+  color: red;
+}
+.youtube:visited {
+  color: red;
+}
+
+.twitch {
+  color: #ab007e;
+}
+.twitch:visited {
+  color: #ab007e;
+}
+
+.github {
+  color: blue;
+}
+.github:visited {
+  color: blue;
+}
