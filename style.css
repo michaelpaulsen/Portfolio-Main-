@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .warn {
   background-color: rgba(235, 186, 52, 0.5);
   color: #dec378;
@@ -169,8 +170,11 @@ nav {
   color: #00333f;
 }
 
+a {
+  color: #0064ff;
+}
 a:visited {
-  color: blue;
+  color: #0064ff;
 }
 
 .youtube {
@@ -192,4 +196,12 @@ a:visited {
 }
 .github:visited {
   color: blue;
+}
+
+.youtube-embed {
+  border: ridge 3px #50aa5a;
+}
+
+.cpy:before {
+  content: "©";
 }
