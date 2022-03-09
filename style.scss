@@ -1,0 +1,84 @@
+$col: 16;
+$debug:false; 
+
+@mixin smallScreens($w) {
+  @media (max-width: $w) {
+    //color:red;
+    @content;
+  }
+}
+@mixin sizeEl($w: 30ch) {
+  width: $w;
+  margin-left: auto;
+  margin-right: auto;
+}
+.warn{ 
+  background-color : rgba(235, 186, 52,.5); 
+  color: rgb(222, 195, 120)
+}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+@for $i from 1 to $col + 1 {
+  .col-#{$i} {
+    overflow: hidden;
+    //background-color:red; 
+    
+    @if ($debug) {
+      outline: 1px solid yellow;}
+    margin: 02px auto; 
+    flex-direction: column;
+    width: (100% * ($i/$col));
+    flex-shrink: 0; 
+    flex-grow: 0; 
+  }
+}
+.center{ 
+text-align:center; 
+}
+.italic{ 
+font-style: italic; 
+}
+
+//begening of custom properties.
+$bg-color: #a5e6ba;
+$bg-color-2: #fcb97d;
+$bg-color-3: #50ffb1;
+$text-align: center;
+$text-color: #004c58;
+$text-color-2: #00333f;
+$text-size: 4rem;
+
+body {
+  background-color: $bg-color;
+  color:$text-color; 
+}
+nav{ 
+  color: $text-color-2; 
+}
+a{
+  color:rgba(0,100,255);
+&:visited{ 
+    color:rgba(0,100,255); 
+  }
+}
+
+$colors: (".youtube" : red, ".twitch" : rgb(171,0,126), ".github" : rgb(0,0,255) ); 
+@each $name, $color in $colors{ 
+  #{$name}{ 
+    color: $color; 
+    &:visited{
+      color: $color;
+    }
+  }
+}
+.youtube-embed{
+  border: ridge 3px rgb(80,170,90); 
+}
+.cpy{ 
+  //display:none; 
+  &:before{
+    content:'©'
+  }
+}
